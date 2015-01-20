@@ -1,0 +1,14 @@
+<project default="compile">
+
+  <!-- build.xml for lab01, W15, CS56
+       name: @@@ INSERT YOUR NAME HERE BEFORE SUBMITTING @@@ -->
+
+  <target name="compile" description="compile my code">
+    <javac srcdir="." destdir="." includeantruntime="false" />
+  </target>
+
+  <target name="run" description="run the UCSBCourseTester program">
+    <java classname="UCSBCourseTester" classpath="." />
+  </target>
+
+</project>
