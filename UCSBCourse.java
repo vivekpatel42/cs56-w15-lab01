@@ -1,7 +1,7 @@
 /** UCSBCourse is a class to represent a UCSB Course.
  @author Phill Conrad
- @author @@@ INSERT YOUR NAME HERE
- @version 04/02/2013 for lab01, cs56, S13
+ @author @@@ Vivek Patel
+ @version 01/19/2015 for lab01, cs56, S13
 */
 
 public class UCSBCourse {
@@ -33,12 +33,12 @@ public class UCSBCourse {
     /**
        Get course number (e.g. "56", "3A", "120A")
      */
-    public String getNum () { return "stub"; } // @@@ STUB fixme!!!
+    public String getNum () { return this.num; } // @@@ STUB fixme!!!
 
     /**
        Get units course is worth
      */
-    public int getUnits () { return -42;} // @@@ STUB fixme !!!
+    public int getUnits () { return this.units;} // @@@ STUB fixme !!!
 
     /** 
 	Get full course name (e.g. CMPSC56, MATH3A, PSTAT120A)

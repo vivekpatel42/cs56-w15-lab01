@@ -1,7 +1,7 @@
 /** UCSBCourseTester contains a simple main program to test UCSBCourse
  @author Phill Conrad
- @author @@@ INSERT YOUR NAME HERE
- @version 04/02/2013 for lab01, cs56, S13
+ @author @@@ Vivek Patel
+ @version 01/19/2015 for lab01, cs56, S13
 */
 
 public class UCSBCourseTester {
